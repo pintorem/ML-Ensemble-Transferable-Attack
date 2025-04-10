@@ -1,9 +1,7 @@
 # ML-Ensemble-Transferable-Attack
 
-Google Colab link to the code: https://colab.research.google.com/drive/1P7_jvSi2QtocdtqHwY64bHMjDBr1-bii#scrollTo=GX2heR86JFEG
-
 ## Overview 
-In this project we study how adversarial examples, optimized for an ensemble of three robust models, can also fool other seven robust models.
+In this project, adversarial examples are optimized with the specific objective of simultaneously fooling an ensemble composed of three models from RobustBench (CIFAR-10, L-inf). Subsequently, an evaluation is carried out concerning the effectiveness of such adversarial examples when applied to seven additional robust models. The full implementation and experimental results are available in this Colab [notebook](https://colab.research.google.com/drive/1P7_jvSi2QtocdtqHwY64bHMjDBr1-bii#scrollTo=qy4rRaqyRcTb)
 
 ## Features
 The adversarial examples are crafted by using three different attacks:
@@ -12,7 +10,7 @@ The adversarial examples are crafted by using three different attacks:
 - Momentum Iterative-Fast Gradient Sign Method (MI-FGSM)
 
 ## Results
-These tests have been performed considering only the first 100 samples of CIFAR-10. Note that the ensemble skips 13 out of 100 samples.
+These tests have been performed considering only the first 100 samples of CIFAR-10.
 
 | **Attack**   | **Loss**                 | **Adversarial Examples\*** | **Attack Success Rate\*** |
 |--------------|--------------------------|-----------------------------|----------------------------|
