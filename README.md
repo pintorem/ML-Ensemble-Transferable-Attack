@@ -1,7 +1,7 @@
 # ML-Ensemble-Transferable-Attack
 
 ## Overview 
-In this project, adversarial examples are optimized with the specific objective of simultaneously fooling an ensemble composed of three models from RobustBench (CIFAR-10, L-inf). Subsequently, an evaluation is carried out concerning the effectiveness of such adversarial examples when applied to seven additional robust models. The full implementation and experimental results are available in this Colab [notebook](https://colab.research.google.com/drive/1P7_jvSi2QtocdtqHwY64bHMjDBr1-bii#scrollTo=qy4rRaqyRcTb)
+In this project, adversarial examples are optimized with the specific objective of simultaneously fooling an ensemble composed of three models from RobustBench (CIFAR-10, L-inf). Subsequently, an evaluation is carried out concerning the effectiveness of such adversarial examples when applied to seven additional robust models. The full implementation and experimental results are available in this Colab [notebook](https://colab.research.google.com/drive/1P7_jvSi2QtocdtqHwY64bHMjDBr1-bii#scrollTo=qy4rRaqyRcTb).
 
 ## Features
 The adversarial examples are crafted by using three different attacks:
@@ -12,7 +12,7 @@ The adversarial examples are crafted by using three different attacks:
 ## Results
 These tests have been performed considering only the first 100 samples of CIFAR-10.
 
-| **Attack**   | **Loss**                 | **Adversarial Examples\*** | **Attack Success Rate\*** |
+| **Attack**   | **Loss**                 | **Adversarial Examples** | **Attack Success Rate** |
 |--------------|--------------------------|-----------------------------|----------------------------|
 | FGSM         | Margin loss              | 16                          | 18%                        |
 | I-FGSM       | Sum of margin losses     | 19                          | 22%                        |
